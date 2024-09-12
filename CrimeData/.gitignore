@@ -1,0 +1,4 @@
+# Specific files which we want github to ignore
+.env 
+pyvenv.cfg
+__pycache__
