@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+CrimeData/__init__.py
+CrimeData/assets.py
+CrimeData/definitions.py
+CrimeData.egg-info/PKG-INFO
+CrimeData.egg-info/SOURCES.txt
+CrimeData.egg-info/dependency_links.txt
+CrimeData.egg-info/requires.txt
+CrimeData.egg-info/top_level.txt
