@@ -11,3 +11,7 @@ The pipeline uses an API call to the dataset, writes the data to a temporary .cs
 The pipeline is setup to run on a weekly schedule (can be easily configured to run daily) using Dagster. The refresh job has two steps:
 1. Fill step
 2. Transformation Step (Only if step 1 has ran without error.)
+
+## Where's the code?
+
+You can view the source code  by navigating to CrimeData > assets.py.
