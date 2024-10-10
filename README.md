@@ -14,4 +14,10 @@ The pipeline is setup to run on a weekly schedule (can be easily configured to r
 
 ## Where's the code?
 
-You can view the source code  by navigating to CrimeData > assets.py.
+You can view the source code by navigating to CrimeData > assets.py. To run the code, an .env file will need to be created with the following info included:
+
+db_username = `mysqlusername`
+db_password = `mysqlpassword`
+database = `mysql://mysqlusername:mysqlpassword@localhost/Buffalo_data`
+port = `mysqlport --This is usually 3306 by default` 
+token = `apitoken --This is retrieved from the Buffalo Open Data website. Create a free account and generate your own personal token.`
